@@ -77,15 +77,13 @@ style_duo(
 # style_extra_css(css = extra_css, outfile = "custom.css")
 ```
 
-
 # Language contact within the bilingual: 
 ### Adapting a model from sound change to crosslinguistic influence
-<br>
+
 <div style="width: 100%;">
  <div style="float: left; width: 18%;" align=right><img src='img/speeconlogo.png' height=140></div>
   <div style="float: left; width: 64%;" align=center><br>Khia A. Johnson & Molly Babel <br>.small[Department of Linguistics<br>University of British Columbia]<br></div>
  <div style="float: left; width: 18%;" align=left><img src='img/isblogo.png' height=155></div>
- <br style="clear: left;" />
 </div>
 
 International Symposium on Bilingualism 13<br>
