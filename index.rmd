@@ -18,12 +18,12 @@ output:
 
 ---
 layout: true
-class: left, middle
+class: left, top
 
 <div class="footer">`r academicons('osf')` <tt>osf.io/jhsfc</tt></div>
 
 ---
-class: center, middle
+class: center, top
 
 ```{r setup, include=FALSE}
 library(icons)
@@ -72,7 +72,7 @@ style_duo(
 # extra_css <- list(
 #   ".small" = list("font-size" = "80%"),
 #   ".big" = list("font-size" = "150%"),
-#   ".footer" = list("position" = "absolute", "bottom" = "12px", "left"="20px", "font-size" = "80%")
+#   ".header" = list("position" = "absolute", "bottom" = "12px", "left"="20px", "font-size" = "80%")
 # )
 # style_extra_css(css = extra_css, outfile = "custom.css")
 ```
@@ -109,6 +109,7 @@ International Symposium on Bilingualism 13<br>
 A quick note about the time. I'll be at the Q+A session for this talk, but it's going to be 3am in my time zone, so I might be a bit sleepy. Molly and I will hold a bonus Q+A session on July 14 at 6pm central European time. I'll post the zoom link for that in the comments on this video.
 
 ---
+class: middle
 
 ## "...the locus of language contact is the bilingual speaker" [(Sankoff 2002: 643)](https://doi.org/10.1002/9780470756591.ch25)
 
@@ -154,6 +155,7 @@ And that's the idea that some categories are more susceptible to influence becau
 So this idea of room to vary hasn't gained much traction in the crosslinguistic influence literature, but it is something you see in work on other kinds of language contact.
 
 ---
+class: middle
 
 ## "The division of labor between SLA and sociohistorical linguistics has led to the investigation of language contact at both ‘micro’ (individual) and ‘macro’ (community) levels" [(Yao & Chang, 2016)](https://doi.org/10.1353/lan.2016.0031)
 
@@ -240,6 +242,7 @@ So, in broad terms, we follow a fairly standard corpus phonetics workflow. There
 Before I jump into the first study, I'll say a little bit more about the materials. The bilingual data comes from the English half of the SpiCE corpus, a new open-access bilingual speech corpus with conversational interviews that we've developed over the last few years here in Vancouver. The first of the comparison corpora is the Corpus of Transnational West Coast English. It's a collection of sociolinguistic interviews with English speakers in Seattle and Vancouver. We use a subset of talkers from Vancouver, that don't have any experience with any Chinese language—though many know some French. I'll refer to this as our "local comparison group." We also included a non-local comparison with the younger half of the Buckeye corpus, a widely used corpus of conversational monolingual English speech from the midwest of the United States. 
 
 ---
+class: middle
 
 # Study 1: Intervocalic /bdg/ voicing
 
@@ -317,7 +320,7 @@ The comparison is consistent and clear for /b/.
 
 ]
 .right-column[
-```{r bdg-results, echo=FALSE, fig.height=5, fig.width=7, out.width='100%'}
+```{r bdg-results, echo=FALSE, fig.height=5, fig.width=7, out.width='90%'}
 
 bdg$corpus <- fct_relevel(bdg$corpus, levels = c('SpiCE','CTWCE', 'Buckeye'))
 
@@ -399,6 +402,7 @@ bdg_spice  %>%
 ... and in that additional model, there was little to no influence for either variable. We considered two things; first, the order of interview sessions in the SpiCE corpus. That is, whether an individual did the Cantonese session first or not. This was a marginal effect, and it patterned as expected, but it isn't something we can draw firm conclusions about. The second consideration was proximity to a code-switch, though there wasn't a ton of code-switching in the English interviews. We didn't see any effect in the model. 
 
 ---
+class: middle
 
 # Study 2: Word-final /ptk/ releases
 
@@ -521,6 +525,7 @@ The main result from Study 2 is that bilinguals are more likely to produce unrel
 So, the takeaway from Study 2 is that our hypothesis held up, albeit with small effect sizes. We anticipated that this environment would be conducive to releases and find that to be mostly true, except for the local groups' T productions. The control effects largely patterned as expected. T and K tokens interacted differently with duration, though we largely attribute this to the large percentage of Ks occurring in the word "like" -- and this is something we go into more in the paper. And lastly, there were not language mode effects detected, which is not to say they don't exist, but rather that our measures were perhaps inadequate for the purposes of detecting them.
 
 ---
+class: middle
 
 # Dicussion
 
