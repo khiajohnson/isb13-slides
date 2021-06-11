@@ -23,7 +23,7 @@ class: left, top
 <div class="footer">`r academicons('osf')` <tt>osf.io/jhsfc</tt></div>
 
 ---
-class: center, top
+class: center, middle
 
 ```{r setup, include=FALSE}
 library(icons)
@@ -320,7 +320,7 @@ The comparison is consistent and clear for /b/.
 
 ]
 .right-column[
-```{r bdg-results, echo=FALSE, fig.height=5, fig.width=7, out.width='90%'}
+```{r bdg-results, echo=FALSE, fig.height=5, fig.width=7, out.width='80%'}
 
 bdg$corpus <- fct_relevel(bdg$corpus, levels = c('SpiCE','CTWCE', 'Buckeye'))
 
